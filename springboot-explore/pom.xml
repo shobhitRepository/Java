@@ -15,13 +15,17 @@
 	<description>explore Spring Boot with new concepts and connections</description>
 	<properties>
 		<java.version>1.8</java.version>
+		<maven-jar-plugin>3.2.0</maven-jar-plugin>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-
+		<dependency>
+	      <groupId>org.springframework.boot</groupId>
+	      <artifactId>spring-boot-starter-web</artifactId>
+	    </dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
